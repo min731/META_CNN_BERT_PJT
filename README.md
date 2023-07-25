@@ -139,12 +139,10 @@ PT 발표 : 여형구
 # 🔍 참고 자료
 ### ✔️ 데이터
   
-[데이콘 Basic 자동차 가격 예측 AI 경진대회](https://dacon.io/competitions/official/236114/overview/description)
+![image](https://github.com/haeniKim/ai-project-team4/assets/115389344/73b4fe21-2222-4c6b-8cc7-7f5a1973a585)
+
+[Multi-Label 참고 링크](https://vijayabhaskar96.medium.com/multi-label-image-classification-tutorial-with-keras-imagedatagenerator-cd541f8eaf24)
 
 ### ✔️ 논문
-1) 고찬영, 2021, 다중선형회귀분석을 이용한 중고차 가격 예측 연구 : A사의 사례를 중심으로』, 인하대학교 물류전문대학원 석사학위 논문
-2) Sümeyra MUTİ1, Kazım YILDIZ2, 2023, Using Linear Regression For Used Car Price Prediction
-,International Journal of Computational and
-Experimental Science and ENgineering
-,Vol. 9-No.1 (2023) pp. 11-16
+(수정정)
 
