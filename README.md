@@ -94,10 +94,10 @@ PT 발표 : 여형구
 
 1. 안면 검출을 위한 모듈(MediaPipe, FaceNet(MTCNN)) 서치
 2. 1920x1080 이미지 데이터 1000개 기준 Inference 속도 비교
-3. 짧은 시간 탑승하는 대중교통/엘리베이터를 고려하여 추론 속도 기준 약 3배 빠른 MediaPipe를 프로젝트에 활용
+3. 짧은 시간 탑승하는 대중교통/엘리베이터 특성 고려 =>  추론 속도 기준 약 3배 빠른 MediaPipe를 프로젝트에 활용
+4. MediaPipe를 활용한 안면 이미지 Crop시, 이목구비까지만 추출되어 저조한 성별 분류 정확도를 보였음  => 추출되는 안면 이미지 frame을 확장하여 얼굴형/헤어 스타일까지 포함되게끔 Crop  
 
 ![image](https://github.com/haeniKim/ai-project-team4/assets/115389344/c051b558-d4db-4e09-b34a-f9e789c18d4d)
-
 
 ### ✔️ CNN Multi-Label 데이터 전처리 
 
@@ -126,15 +126,13 @@ PT 발표 : 여형구
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 
 ### ▪ 주요 라이브러리
-<img src="https://img.shields.io/badge/scikit learn-F7931E?style=for-the-badge&logo=scikit learn&logoColor=white"> <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
-<img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"> <img src="https://img.shields.io/badge/seaborn-99CC00?style=for-the-badge&logo=seaborn&logoColor=white"> <img src="https://img.shields.io/badge/matplotlib-0058CC?style=for-the-badge&logo=matplotlib&logoColor=white"> <img src="https://img.shields.io/badge/wordcloud-FF4F8B?style=for-the-badge&logo=wordcloud&logoColor=white">
-<img src="https://img.shields.io/badge/konlpy-FF0000?style=for-the-badge&logo=konlpy&logoColor=white"> <img src="https://img.shields.io/badge/collections-7FADF2?style=for-the-badge&logo=collections&logoColor=white">
+<img src="https://img.shields.io/badge/tensorflow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"> <img src="https://img.shields.io/badge/pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"> <img src="https://img.shields.io/badge/torchvision-29A7DF?style=for-the-badge&logo=torchvision&logoColor=white"> <img src="https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"> <img src="https://img.shields.io/badge/MediaPipe-1299F3?style=for-the-badge&logo=MediaPipe&logoColor=white"> <img src="https://img.shields.io/badge/facenetpytorch-FF5500?style=for-the-badge&logo=facenetpytorch&logoColor=white"> <img src="https://img.shields.io/badge/keras-D00000?style=for-the-badge&logo=keras&logoColor=white"> <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"> <img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"> <img src="https://img.shields.io/badge/matplotlib-0058CC?style=for-the-badge&logo=matplotlib&logoColor=white"> <img src="https://img.shields.io/badge/pillow-006AFF?style=for-the-badge&logo=pillow&logoColor=white">
 
 ### ▪ 개발 툴
 <img src="https://img.shields.io/badge/VS code-2F80ED?style=for-the-badge&logo=VS code&logoColor=white"> <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=for-the-badge&logo=Google Colab&logoColor=white">
 
 ### ▪ 협업 툴
-<img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white"> <img src="https://img.shields.io/badge/Google Slides-FFBB00?style=for-the-badge&logo=Google Slides&logoColor=white">
+<img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white"> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
 
 # 🔍 참고 자료
 ### ✔️ 데이터
@@ -144,5 +142,5 @@ PT 발표 : 여형구
 [Multi-Label 참고 링크](https://vijayabhaskar96.medium.com/multi-label-image-classification-tutorial-with-keras-imagedatagenerator-cd541f8eaf24)
 
 ### ✔️ 논문
-(수정정)
+(수정중)
 
