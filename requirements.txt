@@ -81,6 +81,7 @@ pyzmq @ file:///C:/b/abs_655zk4a3s8/croot/pyzmq_1686601465034/work
 requests @ file:///C:/b/abs_41owkd5ymz/croot/requests_1682607524657/work
 requests-oauthlib==1.3.1
 rsa==4.9
+scipy==1.10.1
 six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
 sounddevice==0.4.6
 stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1669632077133/work
