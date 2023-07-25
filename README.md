@@ -53,7 +53,7 @@ PT 발표 : 여형구
 - 23-07-18 (9:00 ~ 14:00) : cv2 활용 카메라(웹캠) 테스트, 각도별 안면 데이터 수집
 - 23-07-18 (14:00 ~ 20:00) : DataFrame 활용 Multi-Label 형식 전처리 
 - 23-07-19 : 안면 인식을 위한 MediaPipe, FaceNet(MTCNN)모듈 성능 테스트, 카메라(웹캠) 연동 모듈 개발
-- 23-07-20 : 팀원별 할당된 전이학습 CNN 모델 Multi-Label 학습, 카메라/Face-Recognition/CNN 분류 통합 모듈 개발
+- 23-07-20 : 팀원별 할당된 CNN 아키텍처 Transfer Learning Multi-Label 분류 학습, 카메라/Face-Recognition/CNN 분류 통합 모듈 개발
 - 23-07-21 (9:00 ~ 12:00): CNN 모델 튜닝 및 재학습, PPT 초안 및 대본 작성
 - 23-07-21 (13:00 ~ 22:00): PPT/대본 작성, 블로그/깃허브 정리
 
