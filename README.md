@@ -96,14 +96,15 @@ PT 발표 : 여형구
 1. 안면 검출을 위한 모듈(MediaPipe, FaceNet(MTCNN)) 서치
 2. 1920x1080 이미지 데이터 1000개 기준 Inference 속도 비교
 3. 짧은 시간 탑승하는 대중교통/엘리베이터 특성 고려 =>  추론 속도 기준 약 3배 빠른 MediaPipe를 프로젝트에 활용
-4. MediaPipe를 활용한 안면 이미지 Crop시, 이목구비까지만 추출되어 저조한 성별 분류 정확도를 보였음  => 추출되는 안면 이미지 frame을 확장하여 얼굴형/헤어 스타일까지 포함되게끔 Crop  
 
 ![image](https://github.com/haeniKim/ai-project-team4/assets/115389344/c051b558-d4db-4e09-b34a-f9e789c18d4d)
+
+4. MediaPipe를 활용한 안면 이미지 Crop시, 이목구비까지만 추출되어 저조한 성별 분류 정확도를 보였음  => 추출되는 안면 이미지 frame을 확장하여 얼굴형/헤어 스타일까지 포함되게끔 Crop
 
 ### ✔️ CNN Multi-Label 데이터 전처리 
 
 1. 다양한 각도/연령별 안면 데이터가 포함된 'AI-Hub '가족 관계가 알려진 얼굴 이미지 데이터' 활용
-2. 해당 데이터에서 전문 스튜디오에서 촬영된 데이터 제외
+2. 해당 데이터에서 전문 스튜디오에서 촬영된 정제된 데이터 제외, 야외에서 촬영된 데이터만 활용
 3. Multi-Label을 위한 이미지 데이터별 성별/연령 Labeling (Dataframe 활용)
 
 ![image](https://github.com/haeniKim/ai-project-team4/assets/115389344/73b4fe21-2222-4c6b-8cc7-7f5a1973a585)
