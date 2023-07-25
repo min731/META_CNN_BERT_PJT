@@ -117,6 +117,11 @@ PT 발표 : 여형구
 2. VGG16 (weights='imagenet', epochs=10(Early Stopping), optim=Adam, lr=0.001,batch_size=16), Accuracy = 0.8086
 3. DenseNet121Net (weights='imagenet', epochs=10(Early Stopping), optim=Adam, lr=0.001,batch_size=16), Accuracy = 0.9432
 4. ResNet50 (weights='imagenet', epochs=10(Early Stopping), optim=Adam, lr=0.001,batch_size=16), Accuracy = 0.8702
+
+### ✔️ 성별/연령 분류에 따른 광고 송출
+
+![image](https://github.com/haeniKim/ai-project-team4/assets/115389344/ffa46364-dbac-461b-a341-fb54422ca627)
+
    
 ### ✔️ 결과
 
