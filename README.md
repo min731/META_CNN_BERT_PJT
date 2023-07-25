@@ -144,9 +144,9 @@ PT 발표 : 여형구
 # 🔍 참고 자료
 ### ✔️ 데이터
   
-![image](https://github.com/haeniKim/ai-project-team4/assets/115389344/73b4fe21-2222-4c6b-8cc7-7f5a1973a585)
+![image](https://github.com/haeniKim/ai-project-team4/assets/115389344/842f0c23-673e-462a-8d23-fbe806201144)
 
-[Multi-Label 참고 링크](https://vijayabhaskar96.medium.com/multi-label-image-classification-tutorial-with-keras-imagedatagenerator-cd541f8eaf24)
+[가족 관계가 알려진 얼굴 이미지 데이터](https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=528) <br><br>
 
 ### ✔️ 논문
 (수정중)
