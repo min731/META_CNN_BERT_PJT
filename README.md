@@ -60,29 +60,23 @@ PT 발표 : 여형구
 - 23-07-31 : AI 전공 내부 발표 및 질의응답
 
 # 📊 데이터 소개
-### ✔️ Dacon '데이콘 Basic 자동차 가격 예측 AI 경진대회' 데이터셋을 활용하였습니다.
-[데이콘 Basic 자동차 가격 예측 AI 경진대회](https://dacon.io/competitions/official/236114/overview/description) <br><br>
+### ✔️ AI-Hub '가족 관계가 알려진 얼굴 이미지 데이터' 데이터셋의 일부를 활용하였습니다.
 
-![image](https://github.com/woojooc/ML_Car/assets/115389344/66e2a813-ab89-4802-92a7-8d49f6fe1173)
+![image](https://github.com/haeniKim/ai-project-team4/assets/115389344/842f0c23-673e-462a-8d23-fbe806201144)
 
+[가족 관계가 알려진 얼굴 이미지 데이터](https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=528) <br><br>
 
 ### ✔️ 데이터 세부 사항
-데이터 갯수 : 57920개<br>
-ID : 샘플 별 고유 id<br>
-생산년도 : 차량이 생산된 연도<br>
-모델출시년도 : 차량의 모델이 처음으로 출시된 연도<br>
-브랜드<br>
-차량모델명<br>
-판매도시 : 3글자로 인코딩된 도시 이름<br>
-판매구역 : 3글자로 인코딩된 구역 이름<br>
-주행거리 : 총 주행 거리(km)<br>
-배기량 : 내연기관에서 피스톤이 최대로 밀어내거나 빨아들이는 부피 (cc)<br>
-압축천연가스(CNG) : 압축천연가스(CNG) 자동차 여부<br>
-경유 : 경유 자동차 여부<br>
-가솔린 : 가솔린 자동차 여부<br>
-하이브리드 : 하이브리드 자동차 여부<br>
-액화석유가스(LPG) : 액화석유가스(LPG) 자동차 여부<br>
-가격 : 자동차 가격(백만원)<br>
+![image](https://github.com/haeniKim/ai-project-team4/assets/115389344/172f57e4-b179-4e00-9f40-73b0c7b135b5)
+
+- 총 데이터 갯수 : 43850개<br>
+- 남녀 비율 각 45%, 55%
+- 3014명의 이미지 데이터
+- 10대 연령이 27%로 가장 많은 비율 차지
+- 40대 연령이 24%로 두번째로 많은 비율 차지
+- 여러 각도의 이미지 데이터
+- 다양한 밝기/환경의 이미지 데이터
+
 
 # 💡 주요 내용
 
