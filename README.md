@@ -96,21 +96,29 @@ PT 발표 : 여형구
 2. 1920x1080 이미지 데이터 1000개 기준 Inference 속도 비교
 3. 짧은 시간 탑승하는 대중교통/엘리베이터를 고려하여 추론 속도 기준 약 3배 빠른 MediaPipe를 프로젝트에 활용
 
+![image](https://github.com/haeniKim/ai-project-team4/assets/115389344/c051b558-d4db-4e09-b34a-f9e789c18d4d)
+
+
 ### ✔️ CNN Multi-Label 데이터 전처리 
 
 1. 다양한 각도/연령별 안면 데이터가 포함된 'AI-Hub '가족 관계가 알려진 얼굴 이미지 데이터' 활용
 2. 해당 데이터에서 전문 스튜디오에서 촬영된 데이터 제외
 3. Multi-Label을 위한 이미지 데이터별 성별/연령 Labeling (Dataframe 활용)
 
+![image](https://github.com/haeniKim/ai-project-team4/assets/115389344/73b4fe21-2222-4c6b-8cc7-7f5a1973a585)
+
 [Multi-Label 참고 링크](https://vijayabhaskar96.medium.com/multi-label-image-classification-tutorial-with-keras-imagedatagenerator-cd541f8eaf24)
 
-### ✔️ CNN Multi-Label 모델 
+### ✔️ CNN Multi-Label 모델 학습 및 Evaluate Accuaracy
+
+1. EfficientNetB0 (weights='imagenet', epochs=10(Early Stopping), optim=Adam, lr=0.001,batch_size=16), Accuracy = 0.5628
+2. VGG16 (weights='imagenet', epochs=10(Early Stopping), optim=Adam, lr=0.001,batch_size=16), Accuracy = 0.8086
+3. DenseNet121Net (weights='imagenet', epochs=10(Early Stopping), optim=Adam, lr=0.001,batch_size=16), Accuracy = 0.9432
+4. ResNet50 (weights='imagenet', epochs=10(Early Stopping), optim=Adam, lr=0.001,batch_size=16), Accuracy = 0.8702
    
 ### ✔️ 결과
 
-1. 이번 수입 중고차 가격 예측 프로젝트에서 MAE 기준 가장 최적화된 모델은 Optuna(AutoML)의 XGBoost 모델이고 '생산년도','주행거리','배기량','차량모델' 순으로 가격에 영향을 미쳤습니다.
-2. 금리,나라별 가격,업체(딜러) 등을 독립변수로 추가할 수 있다면 더욱 정확한 예측 가능합니다.
-3. 해당 모델/서비스를 통해 중고차 구매차 및 판매자들에게 여 중고치 시장의 활성화를 도모할 수 있습니다.
+(수정)
 
 # 🛠 기술 스택
 
