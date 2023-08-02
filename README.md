@@ -133,14 +133,10 @@ PT 발표 : 여형구
    
 ### ✔️ 결과
 
-- 최적의 Accuracy, Loss 지표를 보이는 DenseNet121 모델 선정
-
+- 최적의 Accuracy, Loss 지표를 보이는 DenseNet121 모델 선정<br><br>
+DenseNet121Net (weights='imagenet', epochs=15(Early Stopping), optim=Adam, lr=0.00001,batch_size=16)<br>
+🔹Accuracy = 0.9513 🔸Loss = 0.1346 <br><br>
 ![image](https://github.com/haeniKim/ai-project-team4/assets/115389344/7f7636b7-2d14-4d91-b7e0-0f482ae61a36)
-
-DenseNet121Net (weights='imagenet', epochs=15(Early Stopping), optim=Adam, lr=0.00001,batch_size=16)
-
-🔹Accuracy = 0.9513
-🔸Loss = 0.1346
 
 - 기대 효과 <br>
 광고주 입장: 타겟층이 인식될 때만 광고료가 발생하여 비용 효율성이 증가할 것으로 예상됩니다.
