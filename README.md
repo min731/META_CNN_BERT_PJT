@@ -113,10 +113,18 @@ PT 발표 : 여형구
 
 ### ✔️ CNN Multi-Label 모델 학습 및 Evaluate Accuaracy
 
-1. EfficientNetB0 (weights='imagenet', epochs=10(Early Stopping), optim=Adam, lr=0.001,batch_size=16), Accuracy = 0.5628
-2. VGG16 (weights='imagenet', epochs=10(Early Stopping), optim=Adam, lr=0.001,batch_size=16), Accuracy = 0.8086
-3. DenseNet121Net (weights='imagenet', epochs=10(Early Stopping), optim=Adam, lr=0.001,batch_size=16), Accuracy = 0.9432
-4. ResNet50 (weights='imagenet', epochs=10(Early Stopping), optim=Adam, lr=0.001,batch_size=16), Accuracy = 0.8702
+1. EfficientNetB0 (weights='imagenet', epochs=10(Early Stopping), optim=Adam, lr=0.001,batch_size=16)<br>
+   🔹Accuracy = 0.5628
+   🔸Loss = 0.5628
+3. VGG16 (weights='imagenet', epochs=10(Early Stopping), optim=Adam, lr=0.001,batch_size=16)<br>
+   🔹Accuracy = 0.8087
+   🔸Loss = 2.5519
+5. DenseNet121Net (weights='imagenet', epochs=10(Early Stopping), optim=Adam, lr=0.001,batch_size=16)<br>
+   🔹Accuracy = 0.9432
+   🔸Loss = 0.1323
+7. ResNet50 (weights='imagenet', epochs=10(Early Stopping), optim=Adam, lr=0.001,batch_size=16)<br>
+   🔹Accuracy = 0.8702
+   🔸Loss = 0.3131
 
 ### ✔️ 성별/연령 분류에 따른 광고 송출
 
@@ -125,11 +133,21 @@ PT 발표 : 여형구
    
 ### ✔️ 결과
 
-기대 효과
+- 최적의 Accuracy, Loss 지표를 보이는 DenseNet121 모델 선정
+
+![image](https://github.com/haeniKim/ai-project-team4/assets/115389344/7f7636b7-2d14-4d91-b7e0-0f482ae61a36)
+
+DenseNet121Net (weights='imagenet', epochs=15(Early Stopping), optim=Adam, lr=0.00001,batch_size=16)
+
+🔹Accuracy = 0.9513
+🔸Loss = 0.1346
+
+- 기대 효과 <br>
 광고주 입장: 타겟층이 인식될 때만 광고료가 발생하여 비용 효율성이 증가할 것으로 예상됩니다.
 소비자 입장: 연령과 성별에 맞는 광고 송출로 관심 있는 제품에 집중 가능하며, 불필요한 정보 혼란을 줄일 수 있어 효율적인 쇼핑이 가능할 것입니다.
 지역 커뮤니티 연계: 지하철, 버스 정류장 등의 지역과 시간대 별 인구특성 파악으로 새로운 마케팅 전략 수립과 지역 사회와의 협력을 통한 개인화된 서비스 제공이 가능해질 것으로 보입니다.
-한계점과 개선방안
+
+- 한계점 및 개선방안 <br>
 데이터 불균형: 연령별 데이터 불균형은 서비스 이용자 데이터를 수집하여 모델에 반영할 계획입니다.
 분류 정확도: 연령별 클래스를 축소하여 (예: 10대와 20대 묶기, 30대와 40대 묶기) 정확도를 상승시킬 예정입니다.
 처리 시간 단축: 가중치 압축을 통해 이미지 인식과 추론 시간을 단축시킬 예정입니다.
