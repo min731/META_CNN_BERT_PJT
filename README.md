@@ -172,5 +172,22 @@ DenseNet121Net (weights='imagenet', epochs=15(Early Stopping), optim=Adam, lr=0.
 [가족 관계가 알려진 얼굴 이미지 데이터](https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=528) <br><br>
 
 ### ✔️ 논문
-(수정중)
 
+- EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks
+- Deep Residual Learning for Image Recognition
+- Very Deep Convolutional Networks for Large-Scale Image Recognition
+- Densely Connected Convolutional Networks
+
+### ✔️ 기사
+
+- http://www.banronbodo.com/news/articleView.html?idxno=21340
+- https://www.etnews.com/20221115000257
+- https://www.brandbrief.co.kr/news/articleView.html?idxno=5995
+- https://www.jeonmae.co.kr/news/articleView.html?idxno=942925
+- http://www.banronbodo.com/news/articleView.html?idxno=21340
+
+### ✔️ 이미지 영상 출처
+
+- https://dimg.donga.com/wps/NEWS/IMAGE/2020/01/03/99072357.2.jpg
+- https://url.kr/q6u1no
+- https://www.youtube.com/watch?v=EFkdgVDP3qs
