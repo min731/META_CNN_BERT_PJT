@@ -2,7 +2,7 @@
 
 ### ✔️ 실시간 얼굴 인식을 통한 맞춤형 광고 제공 프로젝트(메티버스 아카데미 2기 AI반 딥러닝 팀 프로젝트)
 
-![image](https://github.com/min731/META_FACERECOGNITON_CNN_PJT/assets/115389344/0b48cd40-6b1d-4308-ac2b-0f76d52e94d0)
+![image](https://github.com/min731/META_FACERECOGNITON_CNN_PJT/assets/115389344/d7ec4a2e-7410-4ecb-96d7-ad3e21f4a848)
 
 # 📃 프로젝트 소개
 
