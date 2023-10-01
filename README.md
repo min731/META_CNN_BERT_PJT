@@ -2,6 +2,8 @@
 
 ### ✔️ 실시간 얼굴 인식을 통한 맞춤형 광고 제공 프로젝트(메티버스 아카데미 2기 AI반 딥러닝 팀 프로젝트)
 
+![image](https://github.com/min731/META_FACERECOGNITON_CNN_PJT/assets/115389344/e8c561b2-d007-4899-8c4e-c4f008702c00)
+
 # 📃 프로젝트 소개
 
 ### ✔️ MediaPipe, CNN (Transfer Learning)을 활용한 실시간 얼굴 인식을 통한 맞춤형 광고 제공 프로젝트입니다.  
